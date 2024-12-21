@@ -1,0 +1,137 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  background-color: #1d1d23;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.text-head {
+  width: 328px;
+  height: 42px;
+  top: 47px;
+  left: 700px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.set-time {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  text-align: left;
+  margin-right: 50px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.input-container {
+  display: block;
+  align-content: center;
+  width: 500px;
+  height: 80px;
+  padding-left: 30px;
+  border-radius: 8px;
+  background-color: #34344a;
+  margin-top: 30px;
+}
+
+input {
+  width: 40px;
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+input::placeholder {
+  color: white;
+  opacity: 1;
+  text-decoration: underline;
+}
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+.no-spinner[type="number"] {
+  -moz-appearance: textfield;
+}
+button {
+  width: 100px;
+  height: 48px;
+  border: none;
+  border-radius: 23px;
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+button:hover {
+  background-color: #4a8f59;
+  color: white;
+  font-size: 20px;
+}
+
+section {
+  margin: 20px;
+}
+
+.curr-timer {
+  width: 220px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #3b3939;
+  text-align: center;
+}
+.curr,
+p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.timer {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 80px;
+  padding-left: 30px;
+  border-radius: 8px;
+  background-color: #34344a;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.timer.end {
+  background-color: #34344a;
+  color: #fff;
+  font-size: 25px;
+}
+
+.timer button {
+  background-color: yellow;
+  margin-left: 30px;
+}
+.timer button:hover {
+  color: #000;
+}
+#timer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
